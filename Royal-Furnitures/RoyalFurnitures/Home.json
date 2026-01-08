@@ -1,0 +1,2789 @@
+{
+    "version": "v1.0.0",
+    "detail": "success",
+    "message": "Home page data retrieved successfully",
+    "data": {
+        "top_bar": {
+            "search_placeholder": "Search for furniture...",
+            "categories": [
+                "Sofas",
+                "Living Room",
+                "Dining Room"
+            ],
+            "notification_count": 0,
+            "location": {
+                "current": "UAE (English)",
+                "can_update": true,
+                "country_id": 1
+            }
+        },
+        "active_sale": {
+            "is_active": true,
+            "title": "Flash Sale",
+            "time_remaining": "481:45:02",
+            "banners": [],
+            "auto_scroll_seconds": 2
+        },
+        "promotional_banners": [
+            {
+                "id": 1,
+                "title": "Best Offer – Up to 71% Off",
+                "description": null,
+                "type": "section",
+                "image": "http://16.171.63.244/media/banners/Screenshot_2025-04-23_213245_1.png",
+                "video": null,
+                "link_url": "http://16.171.63.244/",
+                "start_time": "2025-09-23T13:29:30Z",
+                "end_time": "2025-11-28T13:29:35Z",
+                "show_countdown": true,
+                "sort_order": 1,
+                "is_active": true
+            },
+            {
+                "id": 2,
+                "title": "Best Offer – Up to 50% Off",
+                "description": null,
+                "type": "section",
+                "image": "http://16.171.63.244/media/banners/banner_2.jpg",
+                "video": null,
+                "link_url": "http://16.171.63.244/",
+                "start_time": "2025-09-24T06:54:29Z",
+                "end_time": "2025-11-01T06:54:33Z",
+                "show_countdown": true,
+                "sort_order": 2,
+                "is_active": true
+            }
+        ],
+        "offer_banners": [
+            {
+                "id": 8,
+                "title": "Up to 50% Off",
+                "description": "Find products with discounts up to 50%",
+                "type": "offer_card",
+                "image": "http://16.171.63.244/media/banners/Rectangle_6.png",
+                "video": null,
+                "link_url": null,
+                "start_time": null,
+                "end_time": null,
+                "show_countdown": false,
+                "sort_order": 1,
+                "is_active": true
+            },
+            {
+                "id": 9,
+                "title": "Buy 1 Get 1",
+                "description": "Grab exclusive sensitive offers.",
+                "type": "offer_card",
+                "image": "http://16.171.63.244/media/banners/Rectangle_6_1.png",
+                "video": null,
+                "link_url": null,
+                "start_time": null,
+                "end_time": null,
+                "show_countdown": false,
+                "sort_order": 2,
+                "is_active": true
+            }
+        ],
+        "sofas_and_seating": {
+            "title": "Sofas & seating",
+            "banner": {
+                "id": 3,
+                "title": "Grab Exclusive Time-Sensitive Offers 70% off",
+                "description": null,
+                "type": "category",
+                "image": "http://16.171.63.244/media/banners/Group_2.png",
+                "video": null,
+                "link_url": null,
+                "start_time": null,
+                "end_time": null,
+                "show_countdown": false,
+                "sort_order": 0,
+                "is_active": true
+            },
+            "subcategories": [
+                {
+                    "id": 13,
+                    "name": "Sofa Beds",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas_1vW1VFo.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas_ZNRuLaI.png",
+                    "display_priority": 0,
+                    "product_count": 0
+                },
+                {
+                    "id": 11,
+                    "name": "Sectional Sofas",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas_XWJJ8wG.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas_w33vSwU.png",
+                    "display_priority": 0,
+                    "product_count": 1
+                },
+                {
+                    "id": 12,
+                    "name": "Loveseats",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/corner_sofa_Ki2hV9G.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/corner_sofa_5w2Y20w.png",
+                    "display_priority": 0,
+                    "product_count": 0
+                },
+                {
+                    "id": 1,
+                    "name": "Sectionals",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                    "display_priority": 1,
+                    "product_count": 8
+                },
+                {
+                    "id": 2,
+                    "name": "Lounge",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/corner_sofa.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/corner_sofa.png",
+                    "display_priority": 2,
+                    "product_count": 0
+                },
+                {
+                    "id": 3,
+                    "name": "Recliners",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas_Sv1OxXE.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas_uCLy4kP.png",
+                    "display_priority": 3,
+                    "product_count": 1
+                },
+                {
+                    "id": 4,
+                    "name": "Tuxedo Sofas",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/corner_sofa_xUdn92J.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/corner_sofa_GwYRInQ.png",
+                    "display_priority": 4,
+                    "product_count": 0
+                }
+            ],
+            "video_banner": {
+                "id": 4,
+                "title": "New OFFer",
+                "description": null,
+                "type": "category",
+                "image": null,
+                "video": "http://16.171.63.244/media/banners/videos/Group_1.png",
+                "link_url": null,
+                "start_time": null,
+                "end_time": null,
+                "show_countdown": false,
+                "sort_order": 0,
+                "is_active": true
+            }
+        },
+        "bedroom": {
+            "title": "Bedroom",
+            "banner": {
+                "id": 5,
+                "title": "Grab Exclusive Time-Sensitive Offers 70% off",
+                "description": null,
+                "type": "category",
+                "image": "http://16.171.63.244/media/banners/Group_2_vvmD7Xo.png",
+                "video": null,
+                "link_url": null,
+                "start_time": null,
+                "end_time": null,
+                "show_countdown": false,
+                "sort_order": 0,
+                "is_active": true
+            },
+            "subcategories": [
+                {
+                    "id": 17,
+                    "name": "Beds",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/kids_bed_zBhon6F.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/kids_bed_E7Gt6jG.png",
+                    "display_priority": 0,
+                    "product_count": 1
+                },
+                {
+                    "id": 18,
+                    "name": "Wardrobes",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/bedroomset_0fDe2H5.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/bedroomset_l1Qj6KL.png",
+                    "display_priority": 0,
+                    "product_count": 0
+                },
+                {
+                    "id": 19,
+                    "name": "Dressing Tables",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/kids_bed.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/kids_bed.png",
+                    "display_priority": 0,
+                    "product_count": 0
+                },
+                {
+                    "id": 20,
+                    "name": "Bedside Tables",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/bedroomset.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/bedroomset.png",
+                    "display_priority": 0,
+                    "product_count": 0
+                }
+            ],
+            "video_banner": null
+        },
+        "diningroom": {
+            "title": "Diningroom",
+            "banner": {
+                "id": 6,
+                "title": "Grab Exclusive Time-Sensitive Offers 70% off",
+                "description": null,
+                "type": "category",
+                "image": "http://16.171.63.244/media/banners/banner-uoto-80-01.png",
+                "video": null,
+                "link_url": null,
+                "start_time": null,
+                "end_time": null,
+                "show_countdown": false,
+                "sort_order": 0,
+                "is_active": true
+            },
+            "subcategories": [
+                {
+                    "id": 15,
+                    "name": "Dining Chairs",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/dining_chair.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/dining_chair.png",
+                    "display_priority": 0,
+                    "product_count": 0
+                },
+                {
+                    "id": 16,
+                    "name": "Bar Stools",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/wooden_chair.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/wooden_chair.png",
+                    "display_priority": 0,
+                    "product_count": 0
+                },
+                {
+                    "id": 8,
+                    "name": "Dining Tables",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/dining_table.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/dining_table.png",
+                    "display_priority": 8,
+                    "product_count": 1
+                },
+                {
+                    "id": 9,
+                    "name": "Chairs",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/wooden_chair_SM26fjO.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/wooden_chair_ATHRukT.png",
+                    "display_priority": 9,
+                    "product_count": 0
+                },
+                {
+                    "id": 10,
+                    "name": "Sideboards",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/round_table_s2PF6TF.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/round_table_E6TObzv.png",
+                    "display_priority": 10,
+                    "product_count": 0
+                }
+            ],
+            "video_banner": null
+        },
+        "offers_spotlight": {
+            "title": "Up To 80% offer",
+            "description": "Up To 80% offer",
+            "section_type": "subcategory",
+            "main_banner": {
+                "id": 7,
+                "title": "UP TO 80% Off",
+                "description": "UP TO 80% Off",
+                "type": "subcategory",
+                "image": "http://16.171.63.244/media/banners/WhatsApp_Image_2025-09-26_at_3.08.58_PM.jpeg",
+                "video": null,
+                "link_url": null,
+                "start_time": null,
+                "end_time": null,
+                "show_countdown": false,
+                "sort_order": 0,
+                "is_active": true
+            },
+            "subcategories": [
+                {
+                    "id": 11,
+                    "name": "Sectional Sofas",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas_XWJJ8wG.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas_w33vSwU.png",
+                    "display_priority": 0,
+                    "product_count": 1
+                },
+                {
+                    "id": 13,
+                    "name": "Sofa Beds",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas_1vW1VFo.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas_ZNRuLaI.png",
+                    "display_priority": 0,
+                    "product_count": 0
+                },
+                {
+                    "id": 3,
+                    "name": "Recliners",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas_Sv1OxXE.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas_uCLy4kP.png",
+                    "display_priority": 3,
+                    "product_count": 1
+                },
+                {
+                    "id": 9,
+                    "name": "Chairs",
+                    "icon": "http://16.171.63.244/media/subcategory_icons/wooden_chair_SM26fjO.png",
+                    "banner_image": "http://16.171.63.244/media/category_banners/wooden_chair_ATHRukT.png",
+                    "display_priority": 9,
+                    "product_count": 0
+                }
+            ]
+        },
+        "trending_products": {
+            "auto_scroll_seconds": 3,
+            "items": [
+                {
+                    "id": 3,
+                    "name": "Oak Dining Table Set",
+                    "slug": "oak-dining-table-set",
+                    "description": "Solid oak dining table with 6 chairs.",
+                    "category": {
+                        "id": 3,
+                        "name": "Dining Room",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.58.07_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 3,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 1
+                    },
+                    "sub_category": {
+                        "id": 8,
+                        "name": "Dining Tables",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/dining_table.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/dining_table.png",
+                        "display_priority": 8,
+                        "product_count": 1
+                    },
+                    "pricing": {
+                        "base_price": "36464.00",
+                        "offer_price": "16801.00",
+                        "offer_percentage": 53.924418604651166
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_42013.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 0,
+                    "added_to_cart_count": 5,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 9,
+                            "sku": "OAKDININGTABLESET4SEATER1",
+                            "region_prices": {
+                                "base_price": "42430.00",
+                                "offer_price": "37371.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/oak_id9.jpg"
+                            ]
+                        },
+                        {
+                            "id": 10,
+                            "sku": "OAKDININGTABLESET6SEATER2",
+                            "region_prices": {
+                                "base_price": "36464.00",
+                                "offer_price": "23568.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/oak_id10.jpg"
+                            ]
+                        },
+                        {
+                            "id": 11,
+                            "sku": "OAKDININGTABLESET8SEATER3",
+                            "region_prices": {
+                                "base_price": "43502.00",
+                                "offer_price": "16801.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/oak_id11.png"
+                            ]
+                        },
+                        {
+                            "id": 12,
+                            "sku": "OAKDININGTABLESET10SEATER4",
+                            "region_prices": {
+                                "base_price": "43191.00",
+                                "offer_price": "29811.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/oak_id12.jpeg"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 12,
+                    "name": "Aura Family Sectional with Storage",
+                    "slug": "aura-family-sectional-storage",
+                    "description": "Aura Family Sectional with Storage crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "750.00",
+                        "offer_price": "750.00",
+                        "offer_percentage": 0.0
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_5_9eu5dIg.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": true,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 6,
+                    "added_to_cart_count": 2,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 29,
+                            "sku": "AURA-NAVY-L",
+                            "region_prices": {
+                                "base_price": "780.00",
+                                "offer_price": "750.00",
+                                "offer_percentage": 9.0,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_TLN9izT.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_EYNPj9V.png"
+                            ]
+                        },
+                        {
+                            "id": 30,
+                            "sku": "AURA-GREY-3S",
+                            "region_prices": {
+                                "base_price": "750.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_YwPJFmc.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_d1Ht8hn.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 6,
+                    "name": "Corner Sofa",
+                    "slug": "corner-sofa",
+                    "description": "Corner Sofa",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "1299.00",
+                        "offer_price": "499.00",
+                        "offer_percentage": 61.585835257890686
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_5.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": "7 Days",
+                    "display_priority": 0,
+                    "added_to_cart_count": 1,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 18,
+                            "sku": "corner-sofa-1",
+                            "region_prices": {
+                                "base_price": "1299.00",
+                                "offer_price": "499.00",
+                                "offer_percentage": 40.0,
+                                "tax": "9.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 11,
+                    "name": "Nova Compact Sectional with Chaise",
+                    "slug": "nova-compact-sectional-chaise",
+                    "description": "Nova Compact Sectional with Chaise crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "560.00",
+                        "offer_price": null,
+                        "offer_percentage": null
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_4_MaeDyB0.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 5,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 27,
+                            "sku": "NOVA-GREY-3S",
+                            "region_prices": {
+                                "base_price": "560.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_A0C5tHk.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_MofrBkg.png"
+                            ]
+                        },
+                        {
+                            "id": 28,
+                            "sku": "NOVA-BEIGE-L",
+                            "region_prices": {
+                                "base_price": "590.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_nf0TTD7.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_ignAJpc.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 7,
+                    "name": "Astra L-Shaped Fabric Sectional",
+                    "slug": "astra-l-shaped-fabric-sectional",
+                    "description": "Astra L-Shaped Fabric Sectional crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "620.00",
+                        "offer_price": null,
+                        "offer_percentage": null
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_4_E9lxi7A.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 1,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 19,
+                            "sku": "ASTRA-BEIGE-L",
+                            "region_prices": {
+                                "base_price": "650.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_0Z70308.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_k16sLZX.png"
+                            ]
+                        },
+                        {
+                            "id": 20,
+                            "sku": "ASTRA-GREY-3S",
+                            "region_prices": {
+                                "base_price": "620.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_UYSmnXt.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_zbDZT3D.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 10,
+                    "name": "Zen Velvet U-Shaped Sectional",
+                    "slug": "zen-velvet-u-shaped-sectional",
+                    "description": "Zen Velvet U-Shaped Sectional crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "950.00",
+                        "offer_price": "855.00",
+                        "offer_percentage": 10.0
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_5_Wlc3ESk.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": true,
+                    "is_offer": true,
+                    "delivery_estimate_days": null,
+                    "display_priority": 4,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 25,
+                            "sku": "ZEN-BEIGE-U",
+                            "region_prices": {
+                                "base_price": "950.00",
+                                "offer_price": "855.00",
+                                "offer_percentage": 10.0,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_kdix2K4.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_MqMgCh7.png"
+                            ]
+                        },
+                        {
+                            "id": 26,
+                            "sku": "ZEN-NAVY-U",
+                            "region_prices": {
+                                "base_price": "980.00",
+                                "offer_price": "882.00",
+                                "offer_percentage": 10.0,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_hWdutVs.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_UAWWhZr.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 9,
+                    "name": "Luna Modular Corner Sectional",
+                    "slug": "luna-modular-corner-sectional",
+                    "description": "Luna Modular Corner Sectional crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "710.00",
+                        "offer_price": null,
+                        "offer_percentage": null
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_4_aAAnWe2.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 3,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 23,
+                            "sku": "LUNA-GREY-L",
+                            "region_prices": {
+                                "base_price": "740.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/luna-grey-l-1.jpg",
+                                "http://16.171.63.244/media/products/variants/luna-grey-l-2.jpg"
+                            ]
+                        },
+                        {
+                            "id": 24,
+                            "sku": "LUNA-NAVY-3S",
+                            "region_prices": {
+                                "base_price": "710.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/luna-navy-3s-1.jpg",
+                                "http://16.171.63.244/media/products/variants/luna-navy-3s-2.jpg"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 1,
+                    "name": "Modern L-Shaped Sofa",
+                    "slug": "modern-l-shaped-sofa",
+                    "description": "Spacious fabric sofa with modular design and storage options.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 11,
+                        "name": "Sectional Sofas",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas_XWJJ8wG.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas_w33vSwU.png",
+                        "display_priority": 0,
+                        "product_count": 1
+                    },
+                    "pricing": {
+                        "base_price": "21849.00",
+                        "offer_price": "22678.00",
+                        "offer_percentage": -3.7942239919447114
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_1.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 0,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 1,
+                            "sku": "MODERNLSHAPEDSOFA3SEATER1",
+                            "region_prices": {
+                                "base_price": "21849.00",
+                                "offer_price": "37822.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/mdl1_id1.jpg"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "sku": "MODERNLSHAPEDSOFA3SEATER2",
+                            "region_prices": {
+                                "base_price": "44163.00",
+                                "offer_price": "29470.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/mdl1_id2.jpg"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "sku": "MODERNLSHAPEDSOFA3SEATER3",
+                            "region_prices": {
+                                "base_price": "48428.00",
+                                "offer_price": "22678.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/md_di3.jpeg"
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "sku": "MODERNLSHAPEDSOFA3SEATER4",
+                            "region_prices": {
+                                "base_price": "37028.00",
+                                "offer_price": "35293.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/md_id4.jpg"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 5,
+                    "name": "Premium Sofa Set",
+                    "slug": "premium-sofa-set",
+                    "description": "Premium Sofa Set",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "1299.00",
+                        "offer_price": "799.00",
+                        "offer_percentage": 38.49114703618168
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_4.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 0,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 17,
+                            "sku": "premium-sofa-set-1",
+                            "region_prices": {
+                                "base_price": "1299.00",
+                                "offer_price": "799.00",
+                                "offer_percentage": 25.0,
+                                "tax": "9.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 4,
+                    "name": "King Size Bed with Storage",
+                    "slug": "king-size-bed-with-storage",
+                    "description": "Elegant wooden bed with hydraulic storage system.",
+                    "category": {
+                        "id": 4,
+                        "name": "Bedroom",
+                        "icon": null,
+                        "banner_image": null,
+                        "display_priority": 0,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 1
+                    },
+                    "sub_category": {
+                        "id": 17,
+                        "name": "Beds",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/kids_bed_zBhon6F.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/kids_bed_E7Gt6jG.png",
+                        "display_priority": 0,
+                        "product_count": 1
+                    },
+                    "pricing": {
+                        "base_price": "28924.00",
+                        "offer_price": "20237.00",
+                        "offer_percentage": 30.033881897386255
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/King_Size_Bed_with_Storage_Square_1.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 0,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 13,
+                            "sku": "KINGSIZEBEDWITHSTORAGEKING1",
+                            "region_prices": {
+                                "base_price": "41089.00",
+                                "offer_price": "35663.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": []
+                        },
+                        {
+                            "id": 14,
+                            "sku": "KINGSIZEBEDWITHSTORAGEKING2",
+                            "region_prices": {
+                                "base_price": "28924.00",
+                                "offer_price": "32234.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": []
+                        },
+                        {
+                            "id": 15,
+                            "sku": "KINGSIZEBEDWITHSTORAGEQUEEN3",
+                            "region_prices": {
+                                "base_price": "35969.00",
+                                "offer_price": "20237.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": []
+                        },
+                        {
+                            "id": 16,
+                            "sku": "KINGSIZEBEDWITHSTORAGEQUEEN4",
+                            "region_prices": {
+                                "base_price": "39723.00",
+                                "offer_price": "25800.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": []
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                }
+            ]
+        },
+        "personalized_for_you": {
+            "available": false,
+            "items": []
+        },
+        "featured_deals": {
+            "auto_scroll_seconds": 3,
+            "items": [
+                {
+                    "id": 8,
+                    "name": "Haven Leather Reclining Sectional",
+                    "slug": "haven-leather-reclining-sectional",
+                    "description": "Haven Leather Reclining Sectional crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "830.00",
+                        "offer_price": "747.00",
+                        "offer_percentage": 10.0
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_5_YQ7DnKd.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": true,
+                    "is_offer": true,
+                    "delivery_estimate_days": null,
+                    "display_priority": 2,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 21,
+                            "sku": "HAVEN-NAVY-U",
+                            "region_prices": {
+                                "base_price": "870.00",
+                                "offer_price": "783.00",
+                                "offer_percentage": 10.0,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_1yTCKZ9.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_ay74tuS.png"
+                            ]
+                        },
+                        {
+                            "id": 22,
+                            "sku": "HAVEN-BEIGE-L",
+                            "region_prices": {
+                                "base_price": "830.00",
+                                "offer_price": "747.00",
+                                "offer_percentage": 10.0,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_fwecfDz.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_twzeJGU.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 11,
+                    "name": "Nova Compact Sectional with Chaise",
+                    "slug": "nova-compact-sectional-chaise",
+                    "description": "Nova Compact Sectional with Chaise crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "560.00",
+                        "offer_price": null,
+                        "offer_percentage": null
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_4_MaeDyB0.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 5,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 27,
+                            "sku": "NOVA-GREY-3S",
+                            "region_prices": {
+                                "base_price": "560.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_A0C5tHk.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_MofrBkg.png"
+                            ]
+                        },
+                        {
+                            "id": 28,
+                            "sku": "NOVA-BEIGE-L",
+                            "region_prices": {
+                                "base_price": "590.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_nf0TTD7.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_ignAJpc.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 7,
+                    "name": "Astra L-Shaped Fabric Sectional",
+                    "slug": "astra-l-shaped-fabric-sectional",
+                    "description": "Astra L-Shaped Fabric Sectional crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "620.00",
+                        "offer_price": null,
+                        "offer_percentage": null
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_4_E9lxi7A.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 1,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 19,
+                            "sku": "ASTRA-BEIGE-L",
+                            "region_prices": {
+                                "base_price": "650.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_0Z70308.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_k16sLZX.png"
+                            ]
+                        },
+                        {
+                            "id": 20,
+                            "sku": "ASTRA-GREY-3S",
+                            "region_prices": {
+                                "base_price": "620.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_UYSmnXt.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_zbDZT3D.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 10,
+                    "name": "Zen Velvet U-Shaped Sectional",
+                    "slug": "zen-velvet-u-shaped-sectional",
+                    "description": "Zen Velvet U-Shaped Sectional crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "950.00",
+                        "offer_price": "855.00",
+                        "offer_percentage": 10.0
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_5_Wlc3ESk.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": true,
+                    "is_offer": true,
+                    "delivery_estimate_days": null,
+                    "display_priority": 4,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 25,
+                            "sku": "ZEN-BEIGE-U",
+                            "region_prices": {
+                                "base_price": "950.00",
+                                "offer_price": "855.00",
+                                "offer_percentage": 10.0,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_kdix2K4.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_MqMgCh7.png"
+                            ]
+                        },
+                        {
+                            "id": 26,
+                            "sku": "ZEN-NAVY-U",
+                            "region_prices": {
+                                "base_price": "980.00",
+                                "offer_price": "882.00",
+                                "offer_percentage": 10.0,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_hWdutVs.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_UAWWhZr.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 9,
+                    "name": "Luna Modular Corner Sectional",
+                    "slug": "luna-modular-corner-sectional",
+                    "description": "Luna Modular Corner Sectional crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "710.00",
+                        "offer_price": null,
+                        "offer_percentage": null
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_4_aAAnWe2.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 3,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 23,
+                            "sku": "LUNA-GREY-L",
+                            "region_prices": {
+                                "base_price": "740.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/luna-grey-l-1.jpg",
+                                "http://16.171.63.244/media/products/variants/luna-grey-l-2.jpg"
+                            ]
+                        },
+                        {
+                            "id": 24,
+                            "sku": "LUNA-NAVY-3S",
+                            "region_prices": {
+                                "base_price": "710.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/luna-navy-3s-1.jpg",
+                                "http://16.171.63.244/media/products/variants/luna-navy-3s-2.jpg"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 1,
+                    "name": "Modern L-Shaped Sofa",
+                    "slug": "modern-l-shaped-sofa",
+                    "description": "Spacious fabric sofa with modular design and storage options.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 11,
+                        "name": "Sectional Sofas",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas_XWJJ8wG.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas_w33vSwU.png",
+                        "display_priority": 0,
+                        "product_count": 1
+                    },
+                    "pricing": {
+                        "base_price": "21849.00",
+                        "offer_price": "22678.00",
+                        "offer_percentage": -3.7942239919447114
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_1.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 0,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 1,
+                            "sku": "MODERNLSHAPEDSOFA3SEATER1",
+                            "region_prices": {
+                                "base_price": "21849.00",
+                                "offer_price": "37822.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/mdl1_id1.jpg"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "sku": "MODERNLSHAPEDSOFA3SEATER2",
+                            "region_prices": {
+                                "base_price": "44163.00",
+                                "offer_price": "29470.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/mdl1_id2.jpg"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "sku": "MODERNLSHAPEDSOFA3SEATER3",
+                            "region_prices": {
+                                "base_price": "48428.00",
+                                "offer_price": "22678.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/md_di3.jpeg"
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "sku": "MODERNLSHAPEDSOFA3SEATER4",
+                            "region_prices": {
+                                "base_price": "37028.00",
+                                "offer_price": "35293.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/md_id4.jpg"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 5,
+                    "name": "Premium Sofa Set",
+                    "slug": "premium-sofa-set",
+                    "description": "Premium Sofa Set",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "1299.00",
+                        "offer_price": "799.00",
+                        "offer_percentage": 38.49114703618168
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_4.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 0,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 17,
+                            "sku": "premium-sofa-set-1",
+                            "region_prices": {
+                                "base_price": "1299.00",
+                                "offer_price": "799.00",
+                                "offer_percentage": 25.0,
+                                "tax": "9.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 4,
+                    "name": "King Size Bed with Storage",
+                    "slug": "king-size-bed-with-storage",
+                    "description": "Elegant wooden bed with hydraulic storage system.",
+                    "category": {
+                        "id": 4,
+                        "name": "Bedroom",
+                        "icon": null,
+                        "banner_image": null,
+                        "display_priority": 0,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 1
+                    },
+                    "sub_category": {
+                        "id": 17,
+                        "name": "Beds",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/kids_bed_zBhon6F.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/kids_bed_E7Gt6jG.png",
+                        "display_priority": 0,
+                        "product_count": 1
+                    },
+                    "pricing": {
+                        "base_price": "28924.00",
+                        "offer_price": "20237.00",
+                        "offer_percentage": 30.033881897386255
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/King_Size_Bed_with_Storage_Square_1.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 0,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 13,
+                            "sku": "KINGSIZEBEDWITHSTORAGEKING1",
+                            "region_prices": {
+                                "base_price": "41089.00",
+                                "offer_price": "35663.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": []
+                        },
+                        {
+                            "id": 14,
+                            "sku": "KINGSIZEBEDWITHSTORAGEKING2",
+                            "region_prices": {
+                                "base_price": "28924.00",
+                                "offer_price": "32234.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": []
+                        },
+                        {
+                            "id": 15,
+                            "sku": "KINGSIZEBEDWITHSTORAGEQUEEN3",
+                            "region_prices": {
+                                "base_price": "35969.00",
+                                "offer_price": "20237.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": []
+                        },
+                        {
+                            "id": 16,
+                            "sku": "KINGSIZEBEDWITHSTORAGEQUEEN4",
+                            "region_prices": {
+                                "base_price": "39723.00",
+                                "offer_price": "25800.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": []
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 2,
+                    "name": "Classic Recliner",
+                    "slug": "classic-recliner",
+                    "description": "Comfortable recliner with premium leather finish.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 3,
+                        "name": "Recliners",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas_Sv1OxXE.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas_uCLy4kP.png",
+                        "display_priority": 3,
+                        "product_count": 1
+                    },
+                    "pricing": {
+                        "base_price": "20388.00",
+                        "offer_price": "18331.00",
+                        "offer_percentage": 10.089268196978615
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 0,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 5,
+                            "sku": "CLASSICRECLINERSINGLE1",
+                            "region_prices": {
+                                "base_price": "33413.00",
+                                "offer_price": "18331.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/cr_id_5.png"
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "sku": "CLASSICRECLINERSINGLE2",
+                            "region_prices": {
+                                "base_price": "28113.00",
+                                "offer_price": "27623.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/cr_id6.jpg"
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "sku": "CLASSICRECLINERSINGLE3",
+                            "region_prices": {
+                                "base_price": "32990.00",
+                                "offer_price": "28033.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/cr_id7.png"
+                            ]
+                        },
+                        {
+                            "id": 8,
+                            "sku": "CLASSICRECLINERSINGLE4",
+                            "region_prices": {
+                                "base_price": "20388.00",
+                                "offer_price": "37991.00",
+                                "offer_percentage": 10.0,
+                                "tax": "18.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/cr_id8.jpeg"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 6,
+                    "name": "Corner Sofa",
+                    "slug": "corner-sofa",
+                    "description": "Corner Sofa",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "1299.00",
+                        "offer_price": "499.00",
+                        "offer_percentage": 61.585835257890686
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_5.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": "7 Days",
+                    "display_priority": 0,
+                    "added_to_cart_count": 1,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 18,
+                            "sku": "corner-sofa-1",
+                            "region_prices": {
+                                "base_price": "1299.00",
+                                "offer_price": "499.00",
+                                "offer_percentage": 40.0,
+                                "tax": "9.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                }
+            ]
+        },
+        "new_launches": {
+            "auto_scroll_seconds": 3,
+            "items": [
+                {
+                    "id": 12,
+                    "name": "Aura Family Sectional with Storage",
+                    "slug": "aura-family-sectional-storage",
+                    "description": "Aura Family Sectional with Storage crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "750.00",
+                        "offer_price": "750.00",
+                        "offer_percentage": 0.0
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_5_9eu5dIg.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": true,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 6,
+                    "added_to_cart_count": 2,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 29,
+                            "sku": "AURA-NAVY-L",
+                            "region_prices": {
+                                "base_price": "780.00",
+                                "offer_price": "750.00",
+                                "offer_percentage": 9.0,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_TLN9izT.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_EYNPj9V.png"
+                            ]
+                        },
+                        {
+                            "id": 30,
+                            "sku": "AURA-GREY-3S",
+                            "region_prices": {
+                                "base_price": "750.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_YwPJFmc.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_d1Ht8hn.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 10,
+                    "name": "Zen Velvet U-Shaped Sectional",
+                    "slug": "zen-velvet-u-shaped-sectional",
+                    "description": "Zen Velvet U-Shaped Sectional crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "950.00",
+                        "offer_price": "855.00",
+                        "offer_percentage": 10.0
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_5_Wlc3ESk.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": true,
+                    "is_offer": true,
+                    "delivery_estimate_days": null,
+                    "display_priority": 4,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 25,
+                            "sku": "ZEN-BEIGE-U",
+                            "region_prices": {
+                                "base_price": "950.00",
+                                "offer_price": "855.00",
+                                "offer_percentage": 10.0,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_kdix2K4.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_MqMgCh7.png"
+                            ]
+                        },
+                        {
+                            "id": 26,
+                            "sku": "ZEN-NAVY-U",
+                            "region_prices": {
+                                "base_price": "980.00",
+                                "offer_price": "882.00",
+                                "offer_percentage": 10.0,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_hWdutVs.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_UAWWhZr.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 11,
+                    "name": "Nova Compact Sectional with Chaise",
+                    "slug": "nova-compact-sectional-chaise",
+                    "description": "Nova Compact Sectional with Chaise crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "560.00",
+                        "offer_price": null,
+                        "offer_percentage": null
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_4_MaeDyB0.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 5,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 27,
+                            "sku": "NOVA-GREY-3S",
+                            "region_prices": {
+                                "base_price": "560.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_A0C5tHk.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_MofrBkg.png"
+                            ]
+                        },
+                        {
+                            "id": 28,
+                            "sku": "NOVA-BEIGE-L",
+                            "region_prices": {
+                                "base_price": "590.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_nf0TTD7.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_ignAJpc.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 8,
+                    "name": "Haven Leather Reclining Sectional",
+                    "slug": "haven-leather-reclining-sectional",
+                    "description": "Haven Leather Reclining Sectional crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "830.00",
+                        "offer_price": "747.00",
+                        "offer_percentage": 10.0
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_5_YQ7DnKd.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": true,
+                    "is_offer": true,
+                    "delivery_estimate_days": null,
+                    "display_priority": 2,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 21,
+                            "sku": "HAVEN-NAVY-U",
+                            "region_prices": {
+                                "base_price": "870.00",
+                                "offer_price": "783.00",
+                                "offer_percentage": 10.0,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_1yTCKZ9.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_ay74tuS.png"
+                            ]
+                        },
+                        {
+                            "id": 22,
+                            "sku": "HAVEN-BEIGE-L",
+                            "region_prices": {
+                                "base_price": "830.00",
+                                "offer_price": "747.00",
+                                "offer_percentage": 10.0,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_fwecfDz.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_twzeJGU.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 9,
+                    "name": "Luna Modular Corner Sectional",
+                    "slug": "luna-modular-corner-sectional",
+                    "description": "Luna Modular Corner Sectional crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "710.00",
+                        "offer_price": null,
+                        "offer_percentage": null
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_4_aAAnWe2.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 3,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 23,
+                            "sku": "LUNA-GREY-L",
+                            "region_prices": {
+                                "base_price": "740.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/luna-grey-l-1.jpg",
+                                "http://16.171.63.244/media/products/variants/luna-grey-l-2.jpg"
+                            ]
+                        },
+                        {
+                            "id": 24,
+                            "sku": "LUNA-NAVY-3S",
+                            "region_prices": {
+                                "base_price": "710.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/luna-navy-3s-1.jpg",
+                                "http://16.171.63.244/media/products/variants/luna-navy-3s-2.jpg"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 7,
+                    "name": "Astra L-Shaped Fabric Sectional",
+                    "slug": "astra-l-shaped-fabric-sectional",
+                    "description": "Astra L-Shaped Fabric Sectional crafted for modern comfort and durability.",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "620.00",
+                        "offer_price": null,
+                        "offer_percentage": null
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_4_E9lxi7A.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 1,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 19,
+                            "sku": "ASTRA-BEIGE-L",
+                            "region_prices": {
+                                "base_price": "650.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_0Z70308.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5_k16sLZX.png"
+                            ]
+                        },
+                        {
+                            "id": 20,
+                            "sku": "ASTRA-GREY-3S",
+                            "region_prices": {
+                                "base_price": "620.00",
+                                "offer_price": null,
+                                "offer_percentage": null,
+                                "tax": "5.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_UYSmnXt.png",
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4_zbDZT3D.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 6,
+                    "name": "Corner Sofa",
+                    "slug": "corner-sofa",
+                    "description": "Corner Sofa",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "1299.00",
+                        "offer_price": "499.00",
+                        "offer_percentage": 61.585835257890686
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_5.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": "7 Days",
+                    "display_priority": 0,
+                    "added_to_cart_count": 1,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 18,
+                            "sku": "corner-sofa-1",
+                            "region_prices": {
+                                "base_price": "1299.00",
+                                "offer_price": "499.00",
+                                "offer_percentage": 40.0,
+                                "tax": "9.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_5.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                },
+                {
+                    "id": 5,
+                    "name": "Premium Sofa Set",
+                    "slug": "premium-sofa-set",
+                    "description": "Premium Sofa Set",
+                    "category": {
+                        "id": 1,
+                        "name": "Sofas",
+                        "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                        "banner_image": null,
+                        "display_priority": 1,
+                        "delivery_estimate_days": null,
+                        "default_delivery_days": 7,
+                        "supports_express_delivery": false,
+                        "express_delivery_duration": null,
+                        "express_delivery_charge": null,
+                        "supports_free_assembly": false,
+                        "product_count": 10
+                    },
+                    "sub_category": {
+                        "id": 1,
+                        "name": "Sectionals",
+                        "icon": "http://16.171.63.244/media/subcategory_icons/arm_sofas.png",
+                        "banner_image": "http://16.171.63.244/media/category_banners/arm_sofas.png",
+                        "display_priority": 1,
+                        "product_count": 8
+                    },
+                    "pricing": {
+                        "base_price": "1299.00",
+                        "offer_price": "799.00",
+                        "offer_percentage": 38.49114703618168
+                    },
+                    "thumbnail_image": "http://16.171.63.244/media/products/images/Rectangle_601_4.png",
+                    "label": {
+                        "name": null
+                    },
+                    "show_3d_view": false,
+                    "three_d_model": null,
+                    "view_count": 0,
+                    "is_customizable": false,
+                    "is_offer": false,
+                    "delivery_estimate_days": null,
+                    "display_priority": 0,
+                    "added_to_cart_count": 0,
+                    "status": "active",
+                    "variants": [
+                        {
+                            "id": 17,
+                            "sku": "premium-sofa-set-1",
+                            "region_prices": {
+                                "base_price": "1299.00",
+                                "offer_price": "799.00",
+                                "offer_percentage": 25.0,
+                                "tax": "9.00"
+                            },
+                            "variant_images": [
+                                "http://16.171.63.244/media/products/variants/Rectangle_601_4.png"
+                            ]
+                        }
+                    ],
+                    "average_rating": 0.0,
+                    "review_count": 0,
+                    "is_trending": false,
+                    "is_in_wishlist": false
+                }
+            ]
+        },
+        "shop_by_category": [
+            {
+                "id": 1,
+                "name": "Sofas",
+                "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.57.59_PM.jpeg",
+                "banner_image": null,
+                "display_priority": 1,
+                "delivery_estimate_days": null,
+                "default_delivery_days": 7,
+                "supports_express_delivery": false,
+                "express_delivery_duration": null,
+                "express_delivery_charge": null,
+                "supports_free_assembly": false,
+                "product_count": 10
+            },
+            {
+                "id": 2,
+                "name": "Living Room",
+                "icon": "http://16.171.63.244/media/category_icons/soft-sofa-black-line-icon-pictogram-for-web-page-mobile-app-promo-2R4HHJW_AmWKEK3.jpg",
+                "banner_image": null,
+                "display_priority": 2,
+                "delivery_estimate_days": null,
+                "default_delivery_days": 7,
+                "supports_express_delivery": false,
+                "express_delivery_duration": null,
+                "express_delivery_charge": null,
+                "supports_free_assembly": false,
+                "product_count": 0
+            },
+            {
+                "id": 3,
+                "name": "Dining Room",
+                "icon": "http://16.171.63.244/media/category_icons/WhatsApp_Image_2025-10-21_at_1.58.07_PM.jpeg",
+                "banner_image": null,
+                "display_priority": 3,
+                "delivery_estimate_days": null,
+                "default_delivery_days": 7,
+                "supports_express_delivery": false,
+                "express_delivery_duration": null,
+                "express_delivery_charge": null,
+                "supports_free_assembly": false,
+                "product_count": 1
+            }
+        ],
+        "room_offers": [
+            {
+                "id": 10,
+                "title": "Living Room Essentials",
+                "description": "",
+                "type": "room",
+                "image": "http://16.171.63.244/media/banners/Banner_New-01_1.png",
+                "video": null,
+                "link_url": null,
+                "start_time": null,
+                "end_time": null,
+                "show_countdown": false,
+                "sort_order": 0,
+                "is_active": true
+            }
+        ],
+        "find_stores": {
+            "map_url": "https://maps.google.com/royalfurniture",
+            "list": [
+                {
+                    "id": 2,
+                    "name": "Abu Dhabi - Sheikh Rashid Bin Saeed St",
+                    "phone_number": "+971 2 987 6543",
+                    "email": "abudhabi@royalfurniture.ae",
+                    "country": "UAE-English",
+                    "street": "Ground Floor, Sheikh Rashid Bin Saeed St",
+                    "city": "Abu Dhabi",
+                    "state": "Abu Dhabi",
+                    "postal_code": "00001",
+                    "latitude": 25.123015,
+                    "longitude": 56.308252
+                },
+                {
+                    "id": 3,
+                    "name": "Fujairah Round Floor",
+                    "phone_number": "+971 9 123 9876",
+                    "email": "fujairah@royalfurniture.ae",
+                    "country": "UAE-English",
+                    "street": "Mohammed Bin Matar Rd - Round Floor",
+                    "city": "Fujairah",
+                    "state": "Fujairah",
+                    "postal_code": "00002",
+                    "latitude": 25.12301,
+                    "longitude": 56.30825
+                },
+                {
+                    "id": 1,
+                    "name": "Dubai Festival City",
+                    "phone_number": "+971 4 123 4567",
+                    "email": "dfc@royalfurniture.ae",
+                    "country": "UAE-English",
+                    "street": "Ground Floor, Dubai Festival City Mall",
+                    "city": "Dubai",
+                    "state": "Dubai",
+                    "postal_code": "00000",
+                    "latitude": 25.118063,
+                    "longitude": 56.287315
+                }
+            ]
+        },
+        "social_media": {
+            "facebook": "https://facebook.com/royalfurniture",
+            "instagram": "https://instagram.com/royalfurniture",
+            "youtube": "https://youtube.com/royalfurniture",
+            "twitter": "https://twitter.com/royalfurniture"
+        },
+        "floating_offers": {
+            "visible": true,
+            "badge_count": 1,
+            "label": "Offers",
+            "link_url": "/offers"
+        },
+        "latest_blog": [
+            {
+                "id": 2,
+                "title": "The Essential Guide to  Outdoor Lighting",
+                "slug": "the-essential-guide-to-outdoor-lighting-2",
+                "author": null,
+                "category": {
+                    "id": 1,
+                    "name": "Furniture Trends",
+                    "slug": "furniture-trends-1"
+                },
+                "thumbnail": "http://16.171.63.244/media/blogs/thumbnails/Rectangle_601_3.png",
+                "short_description": "A guide to finding the most comfortable and stylish sofa for your space.",
+                "published_at": "2025-10-15T04:54:41Z"
+            },
+            {
+                "id": 1,
+                "title": "Customization in 2025: You Design, We Deliver",
+                "slug": "customization-in-2025-you-design-we-deliver-1",
+                "author": null,
+                "category": {
+                    "id": 1,
+                    "name": "Furniture Trends",
+                    "slug": "furniture-trends-1"
+                },
+                "thumbnail": "http://16.171.63.244/media/blogs/thumbnails/Rectangle_601_2.png",
+                "short_description": "The dining room is the heart of your home a space where family and friends",
+                "published_at": "2025-10-15T04:53:58Z"
+            }
+        ]
+    },
+    "meta": {
+        "type": "home",
+        "action": "get_home"
+    }
+}

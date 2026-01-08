@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24127" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TopOffersCollCell" customModule="RoyalFurnitures" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="105"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="380" height="105"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OffersIcon" translatesAutoresizingMaskIntoConstraints="NO" id="cWY-wr-9H6">
+                        <rect key="frame" x="5" y="10" width="370" height="85"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="85" id="B7z-jV-cNF"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="ibcornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3Dx-gw-4Ux">
+                        <rect key="frame" x="15" y="24.666666666666668" width="222" height="55.666666666666657"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Up to 50% Off" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFk-jE-ZF9">
+                                <rect key="frame" x="0.0" y="0.0" width="222" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find products with discounts up to 50%" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7By-rz-hFR">
+                                <rect key="frame" x="0.0" y="26.999999999999993" width="222" height="28.666666666666664"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="3Dx-gw-4Ux" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="5pX-nz-DqB"/>
+                <constraint firstAttribute="bottom" secondItem="cWY-wr-9H6" secondAttribute="bottom" constant="10" id="ICC-Le-098"/>
+                <constraint firstItem="cWY-wr-9H6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="KtD-PM-uVv"/>
+                <constraint firstAttribute="trailing" secondItem="cWY-wr-9H6" secondAttribute="trailing" constant="5" id="blM-0Z-I5A"/>
+                <constraint firstItem="cWY-wr-9H6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="d55-5i-ZSa"/>
+                <constraint firstItem="3Dx-gw-4Ux" firstAttribute="width" secondItem="cWY-wr-9H6" secondAttribute="width" multiplier="0.6" id="jSV-tI-i2d"/>
+                <constraint firstItem="3Dx-gw-4Ux" firstAttribute="centerY" secondItem="cWY-wr-9H6" secondAttribute="centerY" id="mFc-00-xr4"/>
+            </constraints>
+            <size key="customSize" width="380" height="161"/>
+            <connections>
+                <outlet property="imgOffer" destination="cWY-wr-9H6" id="Kjm-Mm-ixj"/>
+                <outlet property="lblOfferTitle" destination="XFk-jE-ZF9" id="tKF-Rc-Bej"/>
+                <outlet property="lblOffersDisc" destination="7By-rz-hFR" id="as6-e0-dhK"/>
+            </connections>
+            <point key="canvasLocation" x="279.38931297709922" y="158.09859154929578"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="OffersIcon" width="187.33332824707031" height="85"/>
+    </resources>
+</document>

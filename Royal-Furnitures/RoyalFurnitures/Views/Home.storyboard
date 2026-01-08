@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24127" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QiJ-FV-QRN">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search-->
+        <scene sceneID="En9-jg-hqc">
+            <objects>
+                <viewController storyboardIdentifier="SearchVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="A0o-5u-Uht" customClass="SearchVC" customModule="RoyalFurnitures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X41-CG-KKG">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="wJR-5W-cDs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" name="textGray"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Search" image="search" selectedImage="search" id="sid-hU-y5c"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DGN-CN-UBy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="390" y="490"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="m7N-Gh-Za9">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2tE-zs-e9l" customClass="HomeVC" customModule="RoyalFurnitures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dQu-8q-mjo">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ev8-7i-NFF">
+                                <rect key="frame" x="0.0" y="118" width="393" height="617"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="2tE-zs-e9l" id="gMQ-36-HpL"/>
+                                    <outlet property="delegate" destination="2tE-zs-e9l" id="dAj-tO-IsT"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wvf-YU-VBH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Wvf-YU-VBH" firstAttribute="bottom" secondItem="Ev8-7i-NFF" secondAttribute="bottom" id="3cK-C8-uwA"/>
+                            <constraint firstItem="Ev8-7i-NFF" firstAttribute="leading" secondItem="Wvf-YU-VBH" secondAttribute="leading" id="YD0-US-uwJ"/>
+                            <constraint firstItem="Ev8-7i-NFF" firstAttribute="top" secondItem="Wvf-YU-VBH" secondAttribute="top" id="nCf-TH-tyR"/>
+                            <constraint firstItem="Wvf-YU-VBH" firstAttribute="trailing" secondItem="Ev8-7i-NFF" secondAttribute="trailing" id="wwd-FX-YeV"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" selectedImage="homeSelected" id="WhM-Nt-0gd"/>
+                    <connections>
+                        <outlet property="tblView" destination="Ev8-7i-NFF" id="0de-nV-PtQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7uC-ud-coK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="391" y="-166"/>
+        </scene>
+        <!--Main Tab Bar Controller-->
+        <scene sceneID="WlV-mw-e6n">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabBarController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QiJ-FV-QRN" customClass="MainTabBarController" customModule="RoyalFurnitures" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GZE-Uj-Tbe">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" name="textGray"/>
+                        <color key="selectedImageTintColor" name="primaryRed"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="2tE-zs-e9l" kind="relationship" relationship="viewControllers" id="wY1-lS-dEK"/>
+                        <segue destination="A0o-5u-Uht" kind="relationship" relationship="viewControllers" id="lTy-8V-j4Y"/>
+                        <segue destination="22A-QT-kS8" kind="relationship" relationship="viewControllers" id="Ryl-Dp-XdB"/>
+                        <segue destination="cMX-JK-o6s" kind="relationship" relationship="viewControllers" id="wTI-ng-P02"/>
+                        <segue destination="308-Bg-FyY" kind="relationship" relationship="viewControllers" id="LRj-wP-qwa"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FY5-AN-6fx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-512" y="138"/>
+        </scene>
+        <!--Products-->
+        <scene sceneID="fAw-wM-F3p">
+            <objects>
+                <viewController storyboardIdentifier="ProductVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cMX-JK-o6s" customClass="ProductVC" customModule="RoyalFurnitures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FwT-mJ-hqy">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="fY5-yA-7Yq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Products" image="product" landscapeImage="product" selectedImage="productSelected" id="hRn-QE-zVg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PMc-5p-Pp9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="361" y="2015"/>
+        </scene>
+        <!--Cart-->
+        <scene sceneID="5es-Ge-4NU">
+            <objects>
+                <viewController storyboardIdentifier="CartVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="22A-QT-kS8" customClass="CartVC" customModule="RoyalFurnitures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ktv-rh-icV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="nPJ-HC-Vwf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cart" image="cart" landscapeImage="cart" selectedImage="cartSelected" id="mfN-85-lIN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fr6-JK-dL4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="390" y="1260"/>
+        </scene>
+        <!--My Account-->
+        <scene sceneID="1vu-GJ-y7j">
+            <objects>
+                <viewController storyboardIdentifier="AccountVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="308-Bg-FyY" customClass="AccountVC" customModule="RoyalFurnitures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HVt-7m-JY4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="GEf-8C-nyo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My Account" image="account" landscapeImage="account" selectedImage="account" id="d4G-Vz-DAr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k0A-5i-d1X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="314" y="2823"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="account" width="18.333333969116211" height="21"/>
+        <image name="cart" width="22" height="22"/>
+        <image name="cartSelected" width="22" height="22"/>
+        <image name="home" width="33" height="29"/>
+        <image name="homeSelected" width="36" height="31.666666030883789"/>
+        <image name="product" width="22.666666030883789" height="22.666666030883789"/>
+        <image name="productSelected" width="22.666666030883789" height="22.666666030883789"/>
+        <image name="search" width="21.666666030883789" height="21.666666030883789"/>
+        <namedColor name="primaryRed">
+            <color red="0.49399998784065247" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textGray">
+            <color red="0.6119999885559082" green="0.63899999856948853" blue="0.68599998950958252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

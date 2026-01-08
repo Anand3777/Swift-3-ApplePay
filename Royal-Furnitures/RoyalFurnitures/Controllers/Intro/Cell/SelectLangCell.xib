@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SelectLangCell" rowHeight="72" id="KGk-i7-Jjw" customClass="SelectLangCell" customModule="RoyalFurnitures" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="522" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="522" height="72"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vbF-un-I43">
+                        <rect key="frame" x="5" y="5" width="512" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UAE  - English" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxG-N4-ZWm">
+                                <rect key="frame" x="45" y="21.666666666666668" width="92" height="17.000000000000004"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uaeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="vad-kZ-HmG">
+                                <rect key="frame" x="10" y="17.666666666666668" width="25" height="25.000000000000004"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="yQc-Ke-eYW"/>
+                                    <constraint firstAttribute="width" constant="25" id="z33-DZ-XSs"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selected" translatesAutoresizingMaskIntoConstraints="NO" id="cj3-AR-Dbd">
+                                <rect key="frame" x="482" y="20" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="G9h-VH-fub"/>
+                                    <constraint firstAttribute="width" constant="20" id="u2S-1D-cKy"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cj3-AR-Dbd" firstAttribute="centerY" secondItem="vbF-un-I43" secondAttribute="centerY" id="1mu-AW-cWV"/>
+                            <constraint firstItem="jxG-N4-ZWm" firstAttribute="centerY" secondItem="vad-kZ-HmG" secondAttribute="centerY" id="7mi-xh-UCV"/>
+                            <constraint firstItem="vad-kZ-HmG" firstAttribute="centerY" secondItem="vbF-un-I43" secondAttribute="centerY" id="OUq-bp-FQ3"/>
+                            <constraint firstItem="jxG-N4-ZWm" firstAttribute="leading" secondItem="vad-kZ-HmG" secondAttribute="trailing" constant="10" id="cPS-v1-cux"/>
+                            <constraint firstAttribute="trailing" secondItem="cj3-AR-Dbd" secondAttribute="trailing" constant="10" id="ekJ-5f-hVm"/>
+                            <constraint firstItem="vad-kZ-HmG" firstAttribute="leading" secondItem="vbF-un-I43" secondAttribute="leading" constant="10" id="qDm-pq-WWl"/>
+                            <constraint firstAttribute="height" constant="60" id="s1f-1e-92g"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="ibcornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="vbF-un-I43" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="8An-28-ixl"/>
+                    <constraint firstAttribute="trailing" secondItem="vbF-un-I43" secondAttribute="trailing" constant="5" id="E47-n0-JUT"/>
+                    <constraint firstAttribute="bottom" secondItem="vbF-un-I43" secondAttribute="bottom" constant="5" id="Y0w-bs-qz4"/>
+                    <constraint firstItem="vbF-un-I43" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="dYR-n8-VJp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="imgLogo" destination="vad-kZ-HmG" id="5ws-9L-TS9"/>
+                <outlet property="imgSelected" destination="cj3-AR-Dbd" id="EUK-OF-EFE"/>
+                <outlet property="lblLangName" destination="jxG-N4-ZWm" id="Cwz-bM-qjT"/>
+            </connections>
+            <point key="canvasLocation" x="293.12977099236639" y="157.74647887323945"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="selected" width="20.666666030883789" height="20.666666030883789"/>
+        <image name="uaeLogo" width="24" height="24"/>
+    </resources>
+</document>

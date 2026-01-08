@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04404FCB2EB9635500024E74 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 04404FCA2EB9635500024E74 /* SideMenu */; };
+		04404FCD2EB963B300024E74 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 04404FCC2EB963B300024E74 /* NVActivityIndicatorView */; };
+		04404FCF2EB963B300024E74 /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = 04404FCE2EB963B300024E74 /* NVActivityIndicatorViewExtended */; };
+		044050CE2EB9656800024E74 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 044050CD2EB9656800024E74 /* IQKeyboardManagerSwift */; };
+		BA52C97C2ED5F5C800790C45 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = BA52C97B2ED5F5C800790C45 /* SDWebImage */; };
+		BA52C97E2ED5F5C800790C45 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BA52C97D2ED5F5C800790C45 /* SDWebImageMapKit */; };
+		BA85AF002EBCB031006DC4D3 /* CountryPickerView in Frameworks */ = {isa = PBXBuildFile; productRef = BA85AEFF2EBCB031006DC4D3 /* CountryPickerView */; };
+		BA85B0D22EBDC6EC006DC4D3 /* DPOTPView in Frameworks */ = {isa = PBXBuildFile; productRef = BA85B0D12EBDC6EC006DC4D3 /* DPOTPView */; };
+		BABA733E2ED3D79C007407FA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BABA733D2ED3D79C007407FA /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B143B22EAC89C700429FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B143932EAC89C500429FD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B1439A2EAC89C500429FD3;
+			remoteInfo = RoyalFurnitures;
+		};
+		04B143BC2EAC89C700429FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B143932EAC89C500429FD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B1439A2EAC89C500429FD3;
+			remoteInfo = RoyalFurnitures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BABA758C2ED40EB9007407FA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04B1439B2EAC89C500429FD3 /* RoyalFurnitures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoyalFurnitures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B143B12EAC89C700429FD3 /* RoyalFurnituresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoyalFurnituresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B143BB2EAC89C700429FD3 /* RoyalFurnituresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoyalFurnituresUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		04B143C32EAC89C700429FD3 /* Exceptions for "RoyalFurnitures" folder in "RoyalFurnitures" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 04B1439A2EAC89C500429FD3 /* RoyalFurnitures */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		04B1439D2EAC89C500429FD3 /* RoyalFurnitures */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				04B143C32EAC89C700429FD3 /* Exceptions for "RoyalFurnitures" folder in "RoyalFurnitures" target */,
+			);
+			path = RoyalFurnitures;
+			sourceTree = "<group>";
+		};
+		04B143B42EAC89C700429FD3 /* RoyalFurnituresTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoyalFurnituresTests;
+			sourceTree = "<group>";
+		};
+		04B143BE2EAC89C700429FD3 /* RoyalFurnituresUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoyalFurnituresUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B143982EAC89C500429FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04404FCF2EB963B300024E74 /* NVActivityIndicatorViewExtended in Frameworks */,
+				BA52C97E2ED5F5C800790C45 /* SDWebImageMapKit in Frameworks */,
+				BABA733E2ED3D79C007407FA /* Alamofire in Frameworks */,
+				BA52C97C2ED5F5C800790C45 /* SDWebImage in Frameworks */,
+				BA85AF002EBCB031006DC4D3 /* CountryPickerView in Frameworks */,
+				044050CE2EB9656800024E74 /* IQKeyboardManagerSwift in Frameworks */,
+				BA85B0D22EBDC6EC006DC4D3 /* DPOTPView in Frameworks */,
+				04404FCD2EB963B300024E74 /* NVActivityIndicatorView in Frameworks */,
+				04404FCB2EB9635500024E74 /* SideMenu in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B143AE2EAC89C700429FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B143B82EAC89C700429FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B143922EAC89C500429FD3 = {
+			isa = PBXGroup;
+			children = (
+				04B1439D2EAC89C500429FD3 /* RoyalFurnitures */,
+				04B143B42EAC89C700429FD3 /* RoyalFurnituresTests */,
+				04B143BE2EAC89C700429FD3 /* RoyalFurnituresUITests */,
+				04B1439C2EAC89C500429FD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B1439C2EAC89C500429FD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B1439B2EAC89C500429FD3 /* RoyalFurnitures.app */,
+				04B143B12EAC89C700429FD3 /* RoyalFurnituresTests.xctest */,
+				04B143BB2EAC89C700429FD3 /* RoyalFurnituresUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B1439A2EAC89C500429FD3 /* RoyalFurnitures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B143C42EAC89C700429FD3 /* Build configuration list for PBXNativeTarget "RoyalFurnitures" */;
+			buildPhases = (
+				04B143972EAC89C500429FD3 /* Sources */,
+				04B143982EAC89C500429FD3 /* Frameworks */,
+				04B143992EAC89C500429FD3 /* Resources */,
+				BABA758C2ED40EB9007407FA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				04B1439D2EAC89C500429FD3 /* RoyalFurnitures */,
+			);
+			name = RoyalFurnitures;
+			packageProductDependencies = (
+				04404FCA2EB9635500024E74 /* SideMenu */,
+				04404FCC2EB963B300024E74 /* NVActivityIndicatorView */,
+				04404FCE2EB963B300024E74 /* NVActivityIndicatorViewExtended */,
+				044050CD2EB9656800024E74 /* IQKeyboardManagerSwift */,
+				BA85AEFF2EBCB031006DC4D3 /* CountryPickerView */,
+				BA85B0D12EBDC6EC006DC4D3 /* DPOTPView */,
+				BABA733D2ED3D79C007407FA /* Alamofire */,
+				BA52C97B2ED5F5C800790C45 /* SDWebImage */,
+				BA52C97D2ED5F5C800790C45 /* SDWebImageMapKit */,
+			);
+			productName = RoyalFurnitures;
+			productReference = 04B1439B2EAC89C500429FD3 /* RoyalFurnitures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B143B02EAC89C700429FD3 /* RoyalFurnituresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B143C92EAC89C700429FD3 /* Build configuration list for PBXNativeTarget "RoyalFurnituresTests" */;
+			buildPhases = (
+				04B143AD2EAC89C700429FD3 /* Sources */,
+				04B143AE2EAC89C700429FD3 /* Frameworks */,
+				04B143AF2EAC89C700429FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B143B32EAC89C700429FD3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04B143B42EAC89C700429FD3 /* RoyalFurnituresTests */,
+			);
+			name = RoyalFurnituresTests;
+			packageProductDependencies = (
+			);
+			productName = RoyalFurnituresTests;
+			productReference = 04B143B12EAC89C700429FD3 /* RoyalFurnituresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04B143BA2EAC89C700429FD3 /* RoyalFurnituresUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B143CC2EAC89C700429FD3 /* Build configuration list for PBXNativeTarget "RoyalFurnituresUITests" */;
+			buildPhases = (
+				04B143B72EAC89C700429FD3 /* Sources */,
+				04B143B82EAC89C700429FD3 /* Frameworks */,
+				04B143B92EAC89C700429FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B143BD2EAC89C700429FD3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04B143BE2EAC89C700429FD3 /* RoyalFurnituresUITests */,
+			);
+			name = RoyalFurnituresUITests;
+			packageProductDependencies = (
+			);
+			productName = RoyalFurnituresUITests;
+			productReference = 04B143BB2EAC89C700429FD3 /* RoyalFurnituresUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B143932EAC89C500429FD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					04B1439A2EAC89C500429FD3 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					04B143B02EAC89C700429FD3 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 04B1439A2EAC89C500429FD3;
+					};
+					04B143BA2EAC89C700429FD3 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 04B1439A2EAC89C500429FD3;
+					};
+				};
+			};
+			buildConfigurationList = 04B143962EAC89C500429FD3 /* Build configuration list for PBXProject "RoyalFurnitures" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B143922EAC89C500429FD3;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				04AA56762EB95F52000C2193 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				04AA56772EB95F83000C2193 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+				04AA56782EB95FEB000C2193 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				04AA56792EB9602E000C2193 /* XCRemoteSwiftPackageReference "CountryPickerView" */,
+				04AA567A2EB960E4000C2193 /* XCRemoteSwiftPackageReference "SideMenu" */,
+				04AA567B2EB9614D000C2193 /* XCRemoteSwiftPackageReference "DPOTPView" */,
+				BABA733C2ED3D79C007407FA /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04B1439C2EAC89C500429FD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B1439A2EAC89C500429FD3 /* RoyalFurnitures */,
+				04B143B02EAC89C700429FD3 /* RoyalFurnituresTests */,
+				04B143BA2EAC89C700429FD3 /* RoyalFurnituresUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B143992EAC89C500429FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B143AF2EAC89C700429FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B143B92EAC89C700429FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B143972EAC89C500429FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B143AD2EAC89C700429FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B143B72EAC89C700429FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B143B32EAC89C700429FD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B1439A2EAC89C500429FD3 /* RoyalFurnitures */;
+			targetProxy = 04B143B22EAC89C700429FD3 /* PBXContainerItemProxy */;
+		};
+		04B143BD2EAC89C700429FD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B1439A2EAC89C500429FD3 /* RoyalFurnitures */;
+			targetProxy = 04B143BC2EAC89C700429FD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04B143C52EAC89C700429FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P974ZNFZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoyalFurnitures/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App needs your location to show nearby features.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App needs your location to show nearby features.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs your location to show nearby features.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Intro;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royalfurniture.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B143C62EAC89C700429FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P974ZNFZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoyalFurnitures/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App needs your location to show nearby features.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App needs your location to show nearby features.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs your location to show nearby features.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Intro;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royalfurniture.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04B143C72EAC89C700429FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04B143C82EAC89C700429FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B143CA2EAC89C700429FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kanna.RoyalFurnituresTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoyalFurnitures.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoyalFurnitures";
+			};
+			name = Debug;
+		};
+		04B143CB2EAC89C700429FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kanna.RoyalFurnituresTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoyalFurnitures.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoyalFurnitures";
+			};
+			name = Release;
+		};
+		04B143CD2EAC89C700429FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kanna.RoyalFurnituresUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoyalFurnitures;
+			};
+			name = Debug;
+		};
+		04B143CE2EAC89C700429FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kanna.RoyalFurnituresUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoyalFurnitures;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B143962EAC89C500429FD3 /* Build configuration list for PBXProject "RoyalFurnitures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B143C72EAC89C700429FD3 /* Debug */,
+				04B143C82EAC89C700429FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B143C42EAC89C700429FD3 /* Build configuration list for PBXNativeTarget "RoyalFurnitures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B143C52EAC89C700429FD3 /* Debug */,
+				04B143C62EAC89C700429FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B143C92EAC89C700429FD3 /* Build configuration list for PBXNativeTarget "RoyalFurnituresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B143CA2EAC89C700429FD3 /* Debug */,
+				04B143CB2EAC89C700429FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B143CC2EAC89C700429FD3 /* Build configuration list for PBXNativeTarget "RoyalFurnituresUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B143CD2EAC89C700429FD3 /* Debug */,
+				04B143CE2EAC89C700429FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04AA56762EB95F52000C2193 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.1;
+			};
+		};
+		04AA56772EB95F83000C2193 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+		04AA56782EB95FEB000C2193 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.21.3;
+			};
+		};
+		04AA56792EB9602E000C2193 /* XCRemoteSwiftPackageReference "CountryPickerView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kizitonwose/CountryPickerView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.3.0;
+			};
+		};
+		04AA567A2EB960E4000C2193 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kukushi/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		04AA567B2EB9614D000C2193 /* XCRemoteSwiftPackageReference "DPOTPView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Datt1994/DPOTPView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.12;
+			};
+		};
+		BABA733C2ED3D79C007407FA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04404FCA2EB9635500024E74 /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04AA567A2EB960E4000C2193 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		04404FCC2EB963B300024E74 /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04AA56772EB95F83000C2193 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
+		};
+		04404FCE2EB963B300024E74 /* NVActivityIndicatorViewExtended */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04AA56772EB95F83000C2193 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorViewExtended;
+		};
+		044050CD2EB9656800024E74 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04AA56762EB95F52000C2193 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		BA52C97B2ED5F5C800790C45 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04AA56782EB95FEB000C2193 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		BA52C97D2ED5F5C800790C45 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04AA56782EB95FEB000C2193 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		BA85AEFF2EBCB031006DC4D3 /* CountryPickerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04AA56792EB9602E000C2193 /* XCRemoteSwiftPackageReference "CountryPickerView" */;
+			productName = CountryPickerView;
+		};
+		BA85B0D12EBDC6EC006DC4D3 /* DPOTPView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04AA567B2EB9614D000C2193 /* XCRemoteSwiftPackageReference "DPOTPView" */;
+			productName = DPOTPView;
+		};
+		BABA733D2ED3D79C007407FA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BABA733C2ED3D79C007407FA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 04B143932EAC89C500429FD3 /* Project object */;
+}
