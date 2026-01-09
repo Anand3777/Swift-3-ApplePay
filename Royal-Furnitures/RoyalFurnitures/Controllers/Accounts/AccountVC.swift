@@ -79,11 +79,11 @@ extension AccountVC: UITableViewDataSource, UITableViewDelegate {
         _ tableView: UITableView,
         numberOfRowsInSection section: Int
     ) -> Int {
-        
-        if section == 0{
+
+        if section == 0 {
             return 1
         }
-        
+
         if section == 3 || section == 4 || section == 5 {
             if section == 3 {
                 return 3
@@ -100,6 +100,8 @@ extension AccountVC: UITableViewDataSource, UITableViewDelegate {
         _ tableView: UITableView,
         cellForRowAt indexPath: IndexPath
     ) -> UITableViewCell {
+
+        let borderedSections = [0, 1, 2]
 
         if indexPath.section == 0 {
             let cell =
@@ -124,6 +126,17 @@ extension AccountVC: UITableViewDataSource, UITableViewDelegate {
                     for: indexPath
                 ) as! SettingsCell
 
+            let totalRows = 3
+            let isFirstRow = indexPath.row == 0
+            let isLastRow = indexPath.row == totalRows - 1
+            let isCenterRow = !isFirstRow && !isLastRow
+
+            cell.configureBorders(
+                isFirstRow: isFirstRow,
+                isLastRow: isLastRow,
+                isCenterRow: isCenterRow
+            )
+
             return cell
         } else {
             let cell =
@@ -141,11 +154,42 @@ extension AccountVC: UITableViewDataSource, UITableViewDelegate {
         _ tableView: UITableView,
         heightForRowAt indexPath: IndexPath
     ) -> CGFloat {
+
+        if indexPath.section == 3 || indexPath.section == 4 {
+            return 50
+        }
+
         if indexPath.row == 0 {
             return 90
         } else if indexPath.row == 1 {
             return 85
         }
         return 90
+    }
+
+    func tableView(
+        _ tableView: UITableView,
+        titleForHeaderInSection section: Int
+    ) -> String? {
+
+        guard section == 3 || section == 4 else {
+            return nil
+        }
+
+        switch section {
+        case 3:
+            return "Settings"
+        case 4:
+            return "Feedback & Information"
+        default:
+            return nil
+        }
+    }
+
+    func tableView(
+        _ tableView: UITableView,
+        heightForHeaderInSection section: Int
+    ) -> CGFloat {
+        return (section == 3 || section == 4) ? 40 : 0
     }
 }
