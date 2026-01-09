@@ -54,18 +54,45 @@ extension AccountVC: UITableViewDataSource, UITableViewDelegate {
     func setupTableView() {
         myAccountTableView.delegate = self
         myAccountTableView.dataSource = self
+        myAccountTableView.separatorStyle = .none
 
         //
         myAccountTableView.register(
             UINib(nibName: "AccountHeaderCell", bundle: nil),
             forCellReuseIdentifier: "AccountHeaderCell"
         )
+        myAccountTableView.register(
+            UINib(nibName: "ExclusiveOffersCell", bundle: nil),
+            forCellReuseIdentifier: "ExclusiveOffersCell"
+        )
+        myAccountTableView.register(
+            UINib(nibName: "SettingsCell", bundle: nil),
+            forCellReuseIdentifier: "SettingsCell"
+        )
+    }
+
+    func numberOfSections(in tableView: UITableView) -> Int {
+        6
     }
 
     func tableView(
         _ tableView: UITableView,
         numberOfRowsInSection section: Int
     ) -> Int {
+        
+        if section == 0{
+            return 1
+        }
+        
+        if section == 3 || section == 4 || section == 5 {
+            if section == 3 {
+                return 3
+            } else if section == 4 {
+                return 6
+            } else {
+                return 2
+            }
+        }
         return 1
     }
 
@@ -73,12 +100,52 @@ extension AccountVC: UITableViewDataSource, UITableViewDelegate {
         _ tableView: UITableView,
         cellForRowAt indexPath: IndexPath
     ) -> UITableViewCell {
-        let cell =
-            tableView.dequeueReusableCell(
-                withIdentifier: "AccountHeaderCell",
-                for: indexPath
-            ) as! AccountHeaderCell
 
-        return cell
+        if indexPath.section == 0 {
+            let cell =
+                tableView.dequeueReusableCell(
+                    withIdentifier: "AccountHeaderCell",
+                    for: indexPath
+                ) as! AccountHeaderCell
+
+            return cell
+        } else if indexPath.section == 1 {
+            let cell =
+                tableView.dequeueReusableCell(
+                    withIdentifier: "ExclusiveOffersCell",
+                    for: indexPath
+                ) as! ExclusiveOffersCell
+
+            return cell
+        } else if indexPath.section == 3 {
+            let cell =
+                tableView.dequeueReusableCell(
+                    withIdentifier: "SettingsCell",
+                    for: indexPath
+                ) as! SettingsCell
+
+            return cell
+        } else {
+            let cell =
+                tableView.dequeueReusableCell(
+                    withIdentifier: "ExclusiveOffersCell",
+                    for: indexPath
+                ) as! ExclusiveOffersCell
+
+            return cell
+        }
+
+    }
+
+    func tableView(
+        _ tableView: UITableView,
+        heightForRowAt indexPath: IndexPath
+    ) -> CGFloat {
+        if indexPath.row == 0 {
+            return 90
+        } else if indexPath.row == 1 {
+            return 85
+        }
+        return 90
     }
 }
