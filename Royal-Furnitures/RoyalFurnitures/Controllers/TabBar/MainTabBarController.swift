@@ -13,6 +13,7 @@ class MainTabBarController: UITabBarController, UITabBarControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        selectedIndex = 4
         delegate = self
     }
 
