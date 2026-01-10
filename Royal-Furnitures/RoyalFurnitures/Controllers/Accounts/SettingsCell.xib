@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -16,8 +17,43 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jqm-EQ-2PX">
+                        <rect key="frame" x="15" y="0.0" width="290" height="50"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yle-sF-nVy">
-                        <rect key="frame" x="20" y="0.0" width="280" height="50"/>
+                        <rect key="frame" x="15" y="0.0" width="290" height="50"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L4N-M5-AHb">
+                                <rect key="frame" x="20" y="17.666666666666668" width="15" height="15.000000000000004"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="f46-Da-CQ6"/>
+                                    <constraint firstAttribute="width" constant="15" id="zd5-Df-FSb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qmo-YN-jGY">
+                                <rect key="frame" x="55" y="14.666666666666664" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rightArrowBlack" translatesAutoresizingMaskIntoConstraints="NO" id="ZGN-b2-LhX">
+                                <rect key="frame" x="270" y="20" width="5" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="5" id="QDG-jv-t0I"/>
+                                    <constraint firstAttribute="height" constant="10" id="zkQ-nZ-fVo"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Qmo-YN-jGY" firstAttribute="leading" secondItem="L4N-M5-AHb" secondAttribute="trailing" constant="20" id="AWl-qe-YYp"/>
+                            <constraint firstItem="ZGN-b2-LhX" firstAttribute="centerY" secondItem="yle-sF-nVy" secondAttribute="centerY" id="TxJ-Mx-n3D"/>
+                            <constraint firstItem="L4N-M5-AHb" firstAttribute="centerY" secondItem="yle-sF-nVy" secondAttribute="centerY" id="ber-2c-9ub"/>
+                            <constraint firstItem="Qmo-YN-jGY" firstAttribute="centerY" secondItem="yle-sF-nVy" secondAttribute="centerY" id="hJD-c2-geX"/>
+                            <constraint firstAttribute="trailing" secondItem="ZGN-b2-LhX" secondAttribute="trailing" constant="15" id="wWC-Rs-seA"/>
+                            <constraint firstItem="L4N-M5-AHb" firstAttribute="leading" secondItem="yle-sF-nVy" secondAttribute="leading" constant="20" id="xCK-dJ-RYP"/>
+                        </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                 <real key="value" value="0.0"/>
@@ -26,17 +62,30 @@
                     </view>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="Jqm-EQ-2PX" firstAttribute="bottom" secondItem="yle-sF-nVy" secondAttribute="bottom" id="2MI-f8-xri"/>
                     <constraint firstItem="yle-sF-nVy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Abj-O9-fug"/>
-                    <constraint firstItem="yle-sF-nVy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Rpg-sx-5Um"/>
+                    <constraint firstItem="Jqm-EQ-2PX" firstAttribute="top" secondItem="yle-sF-nVy" secondAttribute="top" id="IJM-re-OBn"/>
+                    <constraint firstItem="Jqm-EQ-2PX" firstAttribute="trailing" secondItem="yle-sF-nVy" secondAttribute="trailing" id="OlA-mr-63O"/>
+                    <constraint firstItem="yle-sF-nVy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Rpg-sx-5Um"/>
+                    <constraint firstItem="Jqm-EQ-2PX" firstAttribute="leading" secondItem="yle-sF-nVy" secondAttribute="leading" id="UkQ-j6-Dqg"/>
                     <constraint firstAttribute="bottom" secondItem="yle-sF-nVy" secondAttribute="bottom" id="v5T-0E-s2W"/>
-                    <constraint firstAttribute="trailing" secondItem="yle-sF-nVy" secondAttribute="trailing" constant="20" id="vIB-Oc-0Sd"/>
+                    <constraint firstAttribute="trailing" secondItem="yle-sF-nVy" secondAttribute="trailing" constant="15" id="vIB-Oc-0Sd"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="containerView" destination="yle-sF-nVy" id="pyG-dj-cy8"/>
+                <outlet property="hintImage" destination="L4N-M5-AHb" id="fKv-5B-Ew2"/>
+                <outlet property="shadowView" destination="Jqm-EQ-2PX" id="bsY-hU-KfM"/>
+                <outlet property="titleLabel" destination="Qmo-YN-jGY" id="jpQ-Eg-cmY"/>
             </connections>
             <point key="canvasLocation" x="4.5801526717557248" y="111.9718309859155"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="rightArrowBlack" width="6" height="10.666666984558105"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

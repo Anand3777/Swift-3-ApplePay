@@ -9,6 +9,7 @@ import UIKit
 
 class AccountVC: UIViewController {
     @IBOutlet weak var myAccountTableView: UITableView!
+    let settingsMenu = ["Saved for later", "Notifications settings", "Select Language"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,6 +56,8 @@ extension AccountVC: UITableViewDataSource, UITableViewDelegate {
         myAccountTableView.delegate = self
         myAccountTableView.dataSource = self
         myAccountTableView.separatorStyle = .none
+        
+        
 
         //
         myAccountTableView.register(
@@ -68,6 +71,11 @@ extension AccountVC: UITableViewDataSource, UITableViewDelegate {
         myAccountTableView.register(
             UINib(nibName: "SettingsCell", bundle: nil),
             forCellReuseIdentifier: "SettingsCell"
+        )
+        
+        myAccountTableView.register(
+            UINib(nibName: "FeedbackInformationCell", bundle: nil),
+            forCellReuseIdentifier: "FeedbackInformationCell"
         )
     }
 
@@ -125,6 +133,18 @@ extension AccountVC: UITableViewDataSource, UITableViewDelegate {
                     withIdentifier: "SettingsCell",
                     for: indexPath
                 ) as! SettingsCell
+            
+            let cellTtile: String = settingsMenu[indexPath.row]
+            
+            cell.titleLabel.text = cellTtile
+            
+            if cellTtile.contains("Saved"){
+                cell.imageView?.image = UIImage(named: "save")
+            } else if cellTtile.contains("Notification"){
+                cell.imageView?.image = UIImage(named: "settingsNotification")
+            } else {
+                cell.imageView?.image = UIImage(named: "selectLanguage")
+            }
 
             let totalRows = 3
             let isFirstRow = indexPath.row == 0
@@ -133,8 +153,8 @@ extension AccountVC: UITableViewDataSource, UITableViewDelegate {
 
             cell.configureBorders(
                 isFirstRow: isFirstRow,
-                isLastRow: isLastRow,
-                isCenterRow: isCenterRow
+                isCenterRow: isCenterRow,
+                isLastRow: isLastRow
             )
 
             return cell

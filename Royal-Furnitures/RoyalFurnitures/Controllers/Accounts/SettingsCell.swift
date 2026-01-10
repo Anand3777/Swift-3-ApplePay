@@ -1,166 +1,150 @@
-//
-//  SettingsCell.swift
-//  RoyalFurnitures
-//
-//  Created by Anand on 09/01/26.
-//
-
 import UIKit
 
 class SettingsCell: UITableViewCell {
+
+    @IBOutlet weak var shadowView: UIView?      // 👈 OPTIONAL
     @IBOutlet weak var containerView: UIView!
-    private var borderContainer: UIView!
-    private var isFirstRow = false
-    private var isLastRow = false
-    private var isCenterRow = false
-    
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var hintImage: UIImageView!
+
+    private var borderLayer: CAShapeLayer?
+    private var didSetupShadow = false
+
     override func awakeFromNib() {
         super.awakeFromNib()
-        setupBorderContainer()
         selectionStyle = .none
     }
-    
-    private func setupBorderContainer() {
-        // Create border container ABOVE content
-        borderContainer = UIView()
-        borderContainer.backgroundColor = .clear
-        containerView.insertSubview(borderContainer, at: 0) // Behind content
-        borderContainer.translatesAutoresizingMaskIntoConstraints = false
-        
-        NSLayoutConstraint.activate([
-            borderContainer.topAnchor.constraint(equalTo: containerView.topAnchor),
-            borderContainer.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
-            borderContainer.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
-            borderContainer.bottomAnchor.constraint(equalTo: containerView.bottomAnchor)
-        ])
-        
-        containerView.clipsToBounds = false
+
+    // MARK: - Shadow (Elevation)
+
+    private func setupShadowIfNeeded() {
+        guard let shadowView = shadowView else { return }
+        guard !didSetupShadow else { return }
+
+        shadowView.backgroundColor = .systemBackground   // 🔑 card surface
+        shadowView.layer.cornerRadius = 12
+        shadowView.layer.masksToBounds = false
+
+        shadowView.layer.shadowColor = UIColor.black.cgColor
+        shadowView.layer.shadowOpacity = 0.18             // soft but visible
+        shadowView.layer.shadowOffset = CGSize(width: 0, height: 6)
+        shadowView.layer.shadowRadius = 10                // blur = elevation
+
+        didSetupShadow = true
     }
-    
-    func configureBorders(isFirstRow: Bool, isLastRow: Bool, isCenterRow: Bool) {
-        self.isFirstRow = isFirstRow
-        self.isLastRow = isLastRow
-        self.isCenterRow = isCenterRow
-        
-        // Clear previous borders
-        borderContainer.layer.sublayers?.removeAll()
-        
-        let borderHeight: CGFloat = 2
-        let borderWidth: CGFloat = 2
-        let cornerRadius: CGFloat = 12
-        
-        // FIRST ROW: Top corners rounded
+
+
+    // MARK: - Border
+
+    func configureBorders(
+        isFirstRow: Bool,
+        isCenterRow: Bool,
+        isLastRow: Bool
+    ) {
+        borderLayer?.removeFromSuperlayer()
+
+        let lineWidth: CGFloat = 2
+        let radius: CGFloat = 12
+
+        let bounds = containerView.bounds.insetBy(
+            dx: lineWidth / 2,
+            dy: lineWidth / 2
+        )
+
+        let path = UIBezierPath()
+
         if isFirstRow {
-            borderContainer.layer.cornerRadius = cornerRadius
-            borderContainer.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
-            borderContainer.clipsToBounds = true
-            
-            // Left border
-            let leftBorder = CAGradientLayer()
-            leftBorder.colors = [UIColor.systemGreen.cgColor, UIColor.systemGreen.cgColor]
-            borderContainer.layer.addSublayer(leftBorder)
-            
-            // Top border
-            let topBorder = CAGradientLayer()
-            topBorder.colors = [UIColor.systemGreen.cgColor, UIColor.systemGreen.cgColor]
-            borderContainer.layer.addSublayer(topBorder)
-            
-            // Right border
-            let rightBorder = CAGradientLayer()
-            rightBorder.colors = [UIColor.systemGreen.cgColor, UIColor.systemGreen.cgColor]
-            borderContainer.layer.addSublayer(rightBorder)
+            // Top + Left + Right
+            path.move(to: CGPoint(x: bounds.minX + radius, y: bounds.minY))
+            path.addLine(to: CGPoint(x: bounds.maxX - radius, y: bounds.minY))
+            path.addArc(
+                withCenter: CGPoint(x: bounds.maxX - radius, y: bounds.minY + radius),
+                radius: radius,
+                startAngle: -.pi / 2,
+                endAngle: 0,
+                clockwise: true
+            )
+
+            path.addLine(to: CGPoint(x: bounds.maxX, y: bounds.maxY))
+
+            path.move(to: CGPoint(x: bounds.minX, y: bounds.maxY))
+            path.addLine(to: CGPoint(x: bounds.minX, y: bounds.minY + radius))
+            path.addArc(
+                withCenter: CGPoint(x: bounds.minX + radius, y: bounds.minY + radius),
+                radius: radius,
+                startAngle: .pi,
+                endAngle: -.pi / 2,
+                clockwise: true
+            )
         }
-        // LAST ROW: Bottom corners rounded
-        else if isLastRow {
-            borderContainer.layer.cornerRadius = cornerRadius
-            borderContainer.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
-            borderContainer.clipsToBounds = true
-            
-            // Left border
-            let leftBorder = CAGradientLayer()
-            leftBorder.colors = [UIColor.systemGreen.cgColor, UIColor.systemGreen.cgColor]
-            borderContainer.layer.addSublayer(leftBorder)
-            
-            // Right border
-            let rightBorder = CAGradientLayer()
-            rightBorder.colors = [UIColor.systemGreen.cgColor, UIColor.systemGreen.cgColor]
-            borderContainer.layer.addSublayer(rightBorder)
-            
-            // Bottom border
-            let bottomBorder = CAGradientLayer()
-            bottomBorder.colors = [UIColor.systemGreen.cgColor, UIColor.systemGreen.cgColor]
-            borderContainer.layer.addSublayer(bottomBorder)
-        }
-        // CENTER ROW
+
         else if isCenterRow {
-            borderContainer.layer.cornerRadius = 0
-            borderContainer.clipsToBounds = false
-            
-            // Left border
-            let leftBorder = CAGradientLayer()
-            leftBorder.colors = [UIColor.systemGreen.cgColor, UIColor.systemGreen.cgColor]
-            borderContainer.layer.addSublayer(leftBorder)
-            
-            // Right border
-            let rightBorder = CAGradientLayer()
-            rightBorder.colors = [UIColor.systemGreen.cgColor, UIColor.systemGreen.cgColor]
-            borderContainer.layer.addSublayer(rightBorder)
+            // Left + Right only
+            path.move(to: CGPoint(x: bounds.minX, y: bounds.minY))
+            path.addLine(to: CGPoint(x: bounds.minX, y: bounds.maxY))
+
+            path.move(to: CGPoint(x: bounds.maxX, y: bounds.minY))
+            path.addLine(to: CGPoint(x: bounds.maxX, y: bounds.maxY))
         }
+
+        else if isLastRow {
+            // Left + Right + Bottom
+            path.move(to: CGPoint(x: bounds.minX, y: bounds.minY))
+            path.addLine(to: CGPoint(x: bounds.minX, y: bounds.maxY - radius))
+            path.addArc(
+                withCenter: CGPoint(x: bounds.minX + radius, y: bounds.maxY - radius),
+                radius: radius,
+                startAngle: .pi,
+                endAngle: .pi / 2,
+                clockwise: false
+            )
+
+            path.addLine(to: CGPoint(x: bounds.maxX - radius, y: bounds.maxY))
+            path.addArc(
+                withCenter: CGPoint(x: bounds.maxX - radius, y: bounds.maxY - radius),
+                radius: radius,
+                startAngle: .pi / 2,
+                endAngle: 0,
+                clockwise: false
+            )
+
+            path.addLine(to: CGPoint(x: bounds.maxX, y: bounds.minY))
+        }
+
+        let shapeLayer = CAShapeLayer()
+        shapeLayer.path = path.cgPath
+        shapeLayer.strokeColor = UIColor.lightGray.cgColor
+        shapeLayer.fillColor = UIColor.clear.cgColor
+        shapeLayer.lineWidth = lineWidth
+        shapeLayer.lineJoin = .round
+        shapeLayer.lineCap = .round
+        shapeLayer.frame = containerView.bounds
+
+        containerView.layer.addSublayer(shapeLayer)
+        borderLayer = shapeLayer
     }
-    
+
     override func layoutSubviews() {
         super.layoutSubviews()
-        
-        // Force layout
-        borderContainer.layoutIfNeeded()
-        
-        let borderHeight: CGFloat = 2
-        let borderWidth: CGFloat = 2
-        let sublayers = borderContainer.layer.sublayers?.compactMap { $0 as? CAGradientLayer }
-        let bounds = borderContainer.bounds
-        
-        sublayers?.enumerated().forEach { (index, layer) in
-            if isFirstRow {
-                switch index {
-                case 0: // Left
-                    layer.frame = CGRect(x: 0, y: 0, width: borderWidth, height: bounds.height)
-                case 1: // Top
-                    layer.frame = CGRect(x: 0, y: 0, width: bounds.width, height: borderHeight)
-                case 2: // Right
-                    layer.frame = CGRect(x: bounds.width - borderWidth, y: 0, width: borderWidth, height: bounds.height)
-                default: break
-                }
-            } else if isCenterRow {
-                switch index {
-                case 0: // Left
-                    layer.frame = CGRect(x: 0, y: 0, width: borderWidth, height: bounds.height)
-                case 1: // Right
-                    layer.frame = CGRect(x: bounds.width - borderWidth, y: 0, width: borderWidth, height: bounds.height)
-                default: break
-                }
-            } else if isLastRow {
-                switch index {
-                case 0: // Left
-                    layer.frame = CGRect(x: 0, y: 0, width: borderWidth, height: bounds.height)
-                case 1: // Right
-                    layer.frame = CGRect(x: bounds.width - borderWidth, y: 0, width: borderWidth, height: bounds.height)
-                case 2: // Bottom
-                    layer.frame = CGRect(x: 0, y: bounds.height - borderHeight, width: bounds.width, height: borderHeight)
-                default: break
-                }
-            }
+
+        setupShadowIfNeeded()
+
+        borderLayer?.frame = containerView.bounds
+
+        // ✅ SAFE — only if outlet exists
+        if let shadowView = shadowView {
+            shadowView.layer.shadowPath = UIBezierPath(
+                roundedRect: shadowView.bounds,
+                cornerRadius: 12
+            ).cgPath
         }
     }
-    
+
     override func prepareForReuse() {
         super.prepareForReuse()
-        borderContainer.layer.sublayers?.removeAll()
-        borderContainer.layer.cornerRadius = 0
-        borderContainer.clipsToBounds = false
-        borderContainer.layer.maskedCorners = []
-        isFirstRow = false
-        isLastRow = false
-        isCenterRow = false
+        borderLayer?.removeFromSuperlayer()
+        borderLayer = nil
+        didSetupShadow = false
     }
 }
 
