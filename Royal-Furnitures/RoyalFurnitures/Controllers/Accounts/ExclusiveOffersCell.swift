@@ -15,6 +15,7 @@ class ExclusiveOffersCell: UITableViewCell {
         // Initialization code
         backgroundColor = .clear
         contentView.backgroundColor = .clear
+        selectionStyle = .none
     }
 
     override func layoutSubviews() {
