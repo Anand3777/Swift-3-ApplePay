@@ -74,6 +74,11 @@ extension AccountVC: UITableViewDataSource, UITableViewDelegate {
             UINib(nibName: "FeedbackInformationCell", bundle: nil),
             forCellReuseIdentifier: "FeedbackInformationCell"
         )
+
+        myAccountTableView.register(
+            UINib(nibName: "LogoutCell", bundle: nil),
+            forCellReuseIdentifier: "LogoutCell"
+        )
     }
 
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -124,6 +129,14 @@ extension AccountVC: UITableViewDataSource, UITableViewDelegate {
                 ) as! FeedbackInformationCell
 
             return cell
+        } else if indexPath.section == 5 {
+            let cell =
+                tableView.dequeueReusableCell(
+                    withIdentifier: "LogoutCell",
+                    for: indexPath
+                ) as! LogoutCell
+
+            return cell
         } else {
             let cell =
                 tableView.dequeueReusableCell(
@@ -150,10 +163,11 @@ extension AccountVC: UITableViewDataSource, UITableViewDelegate {
             return 185
         } else if indexPath.section == 4 {
             return 370
+        } else if indexPath.section == 5 {
+            return 130
         } else {
             return 0
         }
-        return 90
     }
 
     func tableView(
